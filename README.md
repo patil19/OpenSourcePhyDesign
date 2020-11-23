@@ -1,4 +1,4 @@
-# Welcome to the OpenSourcePhyDesign wiki!
+# Welcome to the Open Source Physical Design wiki!
 
 ## **Introduction to IC Design Components & Open-Source EDA tools**
 

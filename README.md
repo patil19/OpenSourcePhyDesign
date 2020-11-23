@@ -210,9 +210,13 @@ This will generate layout for the tcl file provided.
 
 
 To create labels on layout select the point on layout where label is placed and then in tkcon window type:
-	```label labelName```
+```
+label labelName
+```
 Then on layout you can modify or create routing and then save the layout:
-	```save layName.mag```
+```
+save layName.mag
+```
 
 Now we want to run a post layout simulation to verify if the output waveform from layout drawn matched with the pre layout sim results.
 
@@ -239,6 +243,8 @@ ngspice 1 -> setplot tran1
 ngspice 1 -> plot out in
 ```
 What is the value of X0 at intersection rising & falling waveform and intersection of horizontal blue line? Ans: around 1.58ns and 2.27ns respectively
+
+![Qflow Routing](https://user-images.githubusercontent.com/40173944/99954989-e1f7a100-2d83-11eb-9838-09414e478ab2.png)
 
 
 # Lab Day 4 STA (Static Timing Analysis):
